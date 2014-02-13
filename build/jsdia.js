@@ -15,6 +15,7 @@ var jsdia;
     var IoNode = (function () {
         function IoNode() {
             this.content = '';
+            this.connections = [];
         }
         return IoNode;
     })();

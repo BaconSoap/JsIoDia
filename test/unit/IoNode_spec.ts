@@ -12,5 +12,10 @@ describe('jsdia.IoNode', () => {
 			expect(node.content).to.equal('');
 		});
 
+		it('should have an empty list of connections', () => {
+			expect(node.connections).to.not.be.undefined;
+			expect(node.connections).to.be.empty;
+		});
+
 	});
 });

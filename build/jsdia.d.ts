@@ -9,6 +9,7 @@ declare module jsdia {
 declare module jsdia {
     class IoNode {
         public content: string;
+        public connections: any[];
         constructor();
     }
 }
