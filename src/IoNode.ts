@@ -1,6 +1,6 @@
 ///<reference path="srcRef.ts" />
 
-module jsdia {
+module jsIoDia {
 	export class IoNode {
 		public content : string;
 		public connections: Array<any>;

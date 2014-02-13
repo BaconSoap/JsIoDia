@@ -1,11 +1,11 @@
 ///<reference path='testRef.ts' />
 
-describe('jsdia.Box', () => {
+describe('jsIoDia.Box', () => {
 	describe('a new Box', () => {
-		var box : jsdia.Box;
+		var box : jsIoDia.Box;
 
 		beforeEach(() => {
-			box = new jsdia.Box();
+			box = new jsIoDia.Box();
 		});
 
 		it('should have no title when created', () => {

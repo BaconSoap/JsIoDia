@@ -1,9 +1,9 @@
-describe('jsdia.IoNode', function () {
+describe('jsIoDia.IoNode', function () {
     describe('a new IoNode', function () {
         var node;
 
         beforeEach(function () {
-            node = new jsdia.IoNode();
+            node = new jsIoDia.IoNode();
         });
 
         it('should have no content when created', function () {

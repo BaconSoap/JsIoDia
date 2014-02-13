@@ -1,11 +1,11 @@
 ///<reference path='testRef.ts' />
 
-describe('jsdia.IoNode', () => {
+describe('jsIoDia.IoNode', () => {
 	describe('a new IoNode', () => {
-		var node : jsdia.IoNode;
+		var node : jsIoDia.IoNode;
 
 		beforeEach(() => {
-			node = new jsdia.IoNode();
+			node = new jsIoDia.IoNode();
 		});
 
 		it('should have no content when created', () => {

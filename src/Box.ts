@@ -1,6 +1,6 @@
 ///<reference path="srcRef.ts" />
 
-module jsdia {
+module jsIoDia {
 	export class Box {
 		public title : string;
 		public inputNodes : Array<IoNode>;

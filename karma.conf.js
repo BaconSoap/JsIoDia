@@ -5,7 +5,7 @@ module.exports = function(config){
     files : [
       'bower_components/jquery/jquery.js',
       'bower_components/underscore/underscore.js',
-      'build/jsdia.js',
+      'build/jsIoDia.js',
       'test/helpers/**/*.js',
       'test/unit/**/*.js'
     ],

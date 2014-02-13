@@ -1,9 +1,9 @@
-describe('jsdia.Box', function () {
+describe('jsIoDia.Box', function () {
     describe('a new Box', function () {
         var box;
 
         beforeEach(function () {
-            box = new jsdia.Box();
+            box = new jsIoDia.Box();
         });
 
         it('should have no title when created', function () {
