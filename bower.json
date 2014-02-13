@@ -1,0 +1,9 @@
+{
+  "name": "sortable-select2",
+  "dependencies": {
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {
+    "jquery": "~1.11.0"
+  }
+}
