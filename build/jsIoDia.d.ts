@@ -15,6 +15,10 @@ declare module jsIoDia {
 }
 declare module jsIoDia {
     class IoConnection {
+        public input: jsIoDia.IoNode;
+        public output: jsIoDia.IoNode;
+        constructor();
+        constructor(enter: jsIoDia.IoNode, exit: jsIoDia.IoNode);
     }
 }
 declare module jsIoDia {

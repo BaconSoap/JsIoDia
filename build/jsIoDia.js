@@ -24,7 +24,9 @@ var jsIoDia;
 var jsIoDia;
 (function (jsIoDia) {
     var IoConnection = (function () {
-        function IoConnection() {
+        function IoConnection(enter, exit) {
+            this.input = enter;
+            this.output = exit;
         }
         return IoConnection;
     })();
