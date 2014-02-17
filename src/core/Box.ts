@@ -1,4 +1,4 @@
-///<reference path="srcRef.ts" />
+///<reference path="coreRef.ts" />
 
 module jsIoDia {
 	export class Box {
